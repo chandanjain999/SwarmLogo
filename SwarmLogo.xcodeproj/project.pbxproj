@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		236B50CD233000ED00D644C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236B50CC233000ED00D644C8 /* AppDelegate.swift */; };
+		236B50CF233000ED00D644C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236B50CE233000ED00D644C8 /* SceneDelegate.swift */; };
+		236B50D1233000ED00D644C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236B50D0233000ED00D644C8 /* ViewController.swift */; };
+		236B50D4233000ED00D644C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236B50D2233000ED00D644C8 /* Main.storyboard */; };
+		236B50D6233000EF00D644C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236B50D5233000EF00D644C8 /* Assets.xcassets */; };
+		236B50D9233000EF00D644C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236B50D7233000EF00D644C8 /* LaunchScreen.storyboard */; };
+		236B50E12330011200D644C8 /* SwarmLogo.reality in Resources */ = {isa = PBXBuildFile; fileRef = 236B50E02330010B00D644C8 /* SwarmLogo.reality */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		236B50C9233000ED00D644C8 /* SwarmLogo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwarmLogo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		236B50CC233000ED00D644C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		236B50CE233000ED00D644C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		236B50D0233000ED00D644C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		236B50D3233000ED00D644C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		236B50D5233000EF00D644C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		236B50D8233000EF00D644C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		236B50DA233000EF00D644C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		236B50E02330010B00D644C8 /* SwarmLogo.reality */ = {isa = PBXFileReference; lastKnownFileType = file; name = SwarmLogo.reality; path = ../../../../Downloads/SwarmLogo.reality; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		236B50C6233000ED00D644C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		236B50C0233000ED00D644C8 = {
+			isa = PBXGroup;
+			children = (
+				236B50CB233000ED00D644C8 /* SwarmLogo */,
+				236B50CA233000ED00D644C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		236B50CA233000ED00D644C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				236B50C9233000ED00D644C8 /* SwarmLogo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		236B50CB233000ED00D644C8 /* SwarmLogo */ = {
+			isa = PBXGroup;
+			children = (
+				236B50E02330010B00D644C8 /* SwarmLogo.reality */,
+				236B50CC233000ED00D644C8 /* AppDelegate.swift */,
+				236B50CE233000ED00D644C8 /* SceneDelegate.swift */,
+				236B50D0233000ED00D644C8 /* ViewController.swift */,
+				236B50D2233000ED00D644C8 /* Main.storyboard */,
+				236B50D5233000EF00D644C8 /* Assets.xcassets */,
+				236B50D7233000EF00D644C8 /* LaunchScreen.storyboard */,
+				236B50DA233000EF00D644C8 /* Info.plist */,
+			);
+			path = SwarmLogo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		236B50C8233000ED00D644C8 /* SwarmLogo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 236B50DD233000EF00D644C8 /* Build configuration list for PBXNativeTarget "SwarmLogo" */;
+			buildPhases = (
+				236B50C5233000ED00D644C8 /* Sources */,
+				236B50C6233000ED00D644C8 /* Frameworks */,
+				236B50C7233000ED00D644C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwarmLogo;
+			productName = SwarmLogo;
+			productReference = 236B50C9233000ED00D644C8 /* SwarmLogo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		236B50C1233000ED00D644C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Chandan Jain";
+				TargetAttributes = {
+					236B50C8233000ED00D644C8 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 236B50C4233000ED00D644C8 /* Build configuration list for PBXProject "SwarmLogo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 236B50C0233000ED00D644C8;
+			productRefGroup = 236B50CA233000ED00D644C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				236B50C8233000ED00D644C8 /* SwarmLogo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		236B50C7233000ED00D644C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236B50E12330011200D644C8 /* SwarmLogo.reality in Resources */,
+				236B50D9233000EF00D644C8 /* LaunchScreen.storyboard in Resources */,
+				236B50D6233000EF00D644C8 /* Assets.xcassets in Resources */,
+				236B50D4233000ED00D644C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		236B50C5233000ED00D644C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236B50D1233000ED00D644C8 /* ViewController.swift in Sources */,
+				236B50CD233000ED00D644C8 /* AppDelegate.swift in Sources */,
+				236B50CF233000ED00D644C8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		236B50D2233000ED00D644C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				236B50D3233000ED00D644C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		236B50D7233000EF00D644C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				236B50D8233000EF00D644C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		236B50DB233000EF00D644C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		236B50DC233000EF00D644C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		236B50DE233000EF00D644C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49E6AM57U3;
+				INFOPLIST_FILE = SwarmLogo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SWARM-NYC-LLC.SwarmLogo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		236B50DF233000EF00D644C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49E6AM57U3;
+				INFOPLIST_FILE = SwarmLogo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SWARM-NYC-LLC.SwarmLogo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		236B50C4233000ED00D644C8 /* Build configuration list for PBXProject "SwarmLogo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				236B50DB233000EF00D644C8 /* Debug */,
+				236B50DC233000EF00D644C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		236B50DD233000EF00D644C8 /* Build configuration list for PBXNativeTarget "SwarmLogo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				236B50DE233000EF00D644C8 /* Debug */,
+				236B50DF233000EF00D644C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 236B50C1233000ED00D644C8 /* Project object */;
+}
